@@ -1,3 +1,29 @@
+#================================================================
+# Manual Square Root with Heron's Method.
+#
+# Author: Bayu R. J. (remove this lol)
+# Version: 1.0.0 *initial release
+# Level: Easy
+# C++ : Dev Cpp 5.11 (GNU C++ 11 Language with compiler TDM-GCC 4.9.2 64-bit Release)
+#================================================================
+# Introduction
+# 
+# This script purpose is simple, calculate the square root of a number.
+# The differences is, it's not using sqrt() function. Also, it will show you the calculation if you say so.
+#-----------------------------------------------------------------
+# Updates
+#
+# 14/09/2020 (1.0.0) - Script finished and released.
+#-----------------------------------------------------------------
+# Compatibility
+#
+# *Class can be use independently (remove the windows.h import and sleep() function if causes problem)
+#-----------------------------------------------------------------
+# Known Bugs
+#
+# *None (In Windows, of course)
+#-----------------------------------------------------------------
+
 #include <stdio.h>
 #include <string.h>
 #include <windows.h>
@@ -14,6 +40,11 @@ class Akar{
 		double n, p;
 		double x[];
 };
+
+Akar::Akar(){
+	cout << "Akar dari 1 adalah: 1";
+	exit;
+}
 
 Akar::Akar(double num, bool show_calc){
 	cout << endl << endl;
