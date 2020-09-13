@@ -1,5 +1,5 @@
 #================================================================
-# Runge-Kutta 4th Order Function
+# Runge-Kutta 4th Order Function for Spring Damping
 #
 # Author: Bayu R. J. (remove this lol)
 # Version: 1.0 *initial release
